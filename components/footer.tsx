@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="bg-background border-t px-6 py-2">
       <div className="mx-auto w-full max-w-screen-2xl divide-y">
-        <div className="flex flex-col items-center justify-between gap-4 px-2 pt-3 pb-5 sm:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 px-2  sm:flex-row">
           <Link href="/" className="flex items-center gap-2">
             <Image src="/images/bomi-logo.png" alt="Company Logo" width={100} height={50} />
           </Link>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse items-center justify-between gap-4 px-2 pt-4 pb-2 sm:flex-row">
           <p className="text-muted-foreground text-sm font-medium">
-            Copyright &copy; {new Date().getFullYear()} Bloxxee. All rights
+            Copyright &copy; {new Date().getFullYear()} Bomi. All rights
             reserved.
           </p>
 

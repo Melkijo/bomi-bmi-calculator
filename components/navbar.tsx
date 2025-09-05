@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          
+         
 
           {/* Mobile navigation menu */}
           <Popover>

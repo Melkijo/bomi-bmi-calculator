@@ -7,6 +7,8 @@ import {
   Zap
 } from "lucide-react";
 
+import Image from "next/image";
+
 const features = [
   {
     title: "Accurate BMI Calculation",
@@ -50,7 +52,9 @@ const Features = () => {
       Designed for simplicity, accuracy, and long-term health tracking.
       </p>
 
-      <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="flex ">
+         
+      <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
         {features.map((feature, index) => (
           <div
             key={index}
@@ -68,6 +72,8 @@ const Features = () => {
           </div>
         ))}
       </div>
+      </div>
+
     </div>
   );
 };
